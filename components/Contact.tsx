@@ -34,11 +34,21 @@ export default function Contact() {
             </p>
 
             <p>
-              📧 info@magvelcapital.com
+              📧 <a
+  href="mailto:info@magvelcapital.com"
+  className="text-blue-700 hover:underline"
+>
+  info@magvelcapital.com
+</a>
             </p>
 
             <p>
-              📧 jitendra@magvelcapital.com
+              📧 <a
+href="mailto:jitendra@magvelcapital.com"
+  className="text-blue-700 hover:underline"
+>
+  jitendra@magvelcapital.com
+</a>
             </p>
 
             <p>
@@ -68,6 +78,19 @@ export default function Contact() {
               placeholder="Email Address"
               className="w-full border p-3 rounded-lg"
             />
+            <div className="bg-blue-50 border border-blue-100 rounded-xl p-4 mb-6">
+  <p className="text-blue-900 font-medium">
+    ✓ Fast Approval Assistance
+  </p>
+
+  <p className="text-blue-900 font-medium">
+    ✓ Multiple Bank Options
+  </p>
+
+  <p className="text-blue-900 font-medium">
+    ✓ End-to-End Documentation Support
+  </p>
+</div>
 
             <select className="w-full border p-3 rounded-lg">
               <option>Select Loan Requirement</option>

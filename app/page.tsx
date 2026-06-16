@@ -8,6 +8,8 @@ import Partners from "../components/Partners";
 import Testimonials from "../components/Testimonals";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import WhatsappButton from "@/components/WhatsappButton";
+import EMICalculator from "../components/EMIcalculator";
 
 export default function Home() {
   return (
@@ -16,12 +18,15 @@ export default function Home() {
       <Hero />
       <About />
       <Services />
+      <EMICalculator/>
       <WhyChooseUs />
       <Process />
       <Partners />
       <Testimonials />
       <Contact />
       <Footer />
+      <WhatsappButton/>
+      
     </>
   );
 }

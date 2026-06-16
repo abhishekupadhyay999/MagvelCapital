@@ -103,9 +103,9 @@ export default function Partners() {
               <Image
                 src={bank.logo}
                 alt={bank.name}
-                width={120}
-                height={60}
-                className="object-contain"
+                width={140}
+                height={70}
+                className="object-contain max-h-16 w-auto"
               />
 
               <p className="mt-4 text-sm font-medium text-blue-900 text-center">
