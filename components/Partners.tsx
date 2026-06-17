@@ -56,7 +56,7 @@ export default function Partners() {
 
           <div className="bg-gray-50 rounded-xl p-6 text-center shadow">
             <h3 className="text-3xl font-bold text-blue-900">
-              500+
+              50000+
             </h3>
             <p className="text-gray-600 mt-2">
               Happy Customers
@@ -65,7 +65,7 @@ export default function Partners() {
 
           <div className="bg-gray-50 rounded-xl p-6 text-center shadow">
             <h3 className="text-3xl font-bold text-blue-900">
-              20+
+              150+
             </h3>
             <p className="text-gray-600 mt-2">
               Banking Partners
