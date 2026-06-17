@@ -2,7 +2,6 @@ export default function Contact() {
   return (
     <section id="contact" className="py-24 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6">
-
         <h2 className="text-4xl font-bold text-center text-blue-900 mb-4">
           Contact Us
         </h2>
@@ -19,36 +18,41 @@ export default function Contact() {
               MAGVEL CAPITAL SERVICES PVT LTD
             </h3>
 
-            <p>
-              <strong>Director:</strong> Jitendra Dubey
-            </p>
+            <div>
+              <h4 className="font-semibold text-blue-900">
+                Directors
+              </h4>
+              <p>Ranju Divedi</p>
+              <p>Ajay Tiwari</p>
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-blue-900">
+                Vice President
+              </h4>
+              <p>Jitendra Dubey</p>
+            </div>
 
             <p>
               📍 41, 1st Floor, Sunshine Commercial Complex,
+              <br />
               Near Railway Station,
+              <br />
               Nalasopara East – 401209, Maharashtra
             </p>
 
             <p>
-              📞 +91 87999 74949
+              📞 +91 9076910998
             </p>
 
             <p>
-              📧 <a
-  href="mailto:info@magvelcapital.com"
-  className="text-blue-700 hover:underline"
->
-  info@magvelcapital.com
-</a>
-            </p>
-
-            <p>
-              📧 <a
-href="mailto:jitendra@magvelcapital.com"
-  className="text-blue-700 hover:underline"
->
-  jitendra@magvelcapital.com
-</a>
+              📧{" "}
+              <a
+                href="mailto:info@magvelcapital.com"
+                className="text-blue-700 hover:underline"
+              >
+                info@magvelcapital.com
+              </a>
             </p>
 
             <p>
@@ -56,59 +60,60 @@ href="mailto:jitendra@magvelcapital.com"
             </p>
           </div>
 
-          
-
           {/* Right Side Form */}
-          <form className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500">
-
-            <input
-              type="text"
-              placeholder="Full Name"
-              className="w-full border p-3 rounded-lg"
-            />
-
-            <input
-              type="tel"
-              placeholder="Mobile Number"
-              className="w-full border p-3 rounded-lg"
-            />
-
-            <input
-              type="email"
-              placeholder="Email Address"
-              className="w-full border p-3 rounded-lg"
-            />
+          <div>
             <div className="bg-blue-50 border border-blue-100 rounded-xl p-4 mb-6">
-  <p className="text-blue-900 font-medium">
-    ✓ Fast Approval Assistance
-  </p>
+              <p className="text-blue-900 font-medium">
+                ✓ Fast Approval Assistance
+              </p>
 
-  <p className="text-blue-900 font-medium">
-    ✓ Multiple Bank Options
-  </p>
+              <p className="text-blue-900 font-medium">
+                ✓ Multiple Bank Options
+              </p>
 
-  <p className="text-blue-900 font-medium">
-    ✓ End-to-End Documentation Support
-  </p>
-</div>
+              <p className="text-blue-900 font-medium">
+                ✓ End-to-End Documentation Support
+              </p>
+            </div>
 
-            <select className="w-full border p-3 rounded-lg">
-              <option>Select Loan Requirement</option>
-              <option>Home Loan</option>
-              <option>Loan Against Property</option>
-              <option>Mortgage Loan</option>
-              <option>Business Loan</option>
-              <option>Construction Finance</option>
-            </select>
+            <form className="space-y-4">
+              <input
+                type="text"
+                placeholder="Full Name"
+                className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
 
-            <button
-              type="submit"
-              className="w-full bg-yellow-500 hover:bg-yellow-600 text-white py-3 rounded-xl font-semibold shadow-lg hover:scale-[1.02] transition-all duration-300"
-            >
-              Submit Inquiry
-            </button>
+              <input
+                type="tel"
+                placeholder="Mobile Number"
+                className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
 
-          </form>
+              <input
+                type="email"
+                placeholder="Email Address"
+                className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+
+              <select className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <option>Select Loan Requirement</option>
+                <option>Home Loan</option>
+                <option>Loan Against Property</option>
+                <option>Mortgage Loan</option>
+                <option>Business Loan</option>
+                <option>Construction Finance</option>
+                <option>Builder Funding</option>
+              </select>
+
+              <button
+                type="submit"
+                className="w-full bg-yellow-500 hover:bg-yellow-600 text-white py-3 rounded-xl font-semibold shadow-lg hover:scale-[1.02] transition-all duration-300"
+              >
+                Submit Inquiry
+              </button>
+            </form>
+          </div>
+
         </div>
       </div>
     </section>
