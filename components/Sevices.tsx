@@ -1,60 +1,71 @@
+import {
+  FaHome,
+  FaBuilding,
+  FaBriefcase,
+  FaHardHat,
+  FaUniversity,
+  FaMoneyCheckAlt,
+} from "react-icons/fa";
+
 export default function Services() {
   const services = [
     {
-      title: "Home Loans",
-      description: "Own your dream home with attractive interest rates.",
+      icon: <FaHome size={40} />,
+      title: "Home Loan",
     },
     {
+      icon: <FaBuilding size={40} />,
       title: "Loan Against Property",
-      description: "Unlock the value of your property.",
     },
     {
-      title: "Mortgage Loans",
-      description: "Customized funding for your financial needs.",
+      icon: <FaBriefcase size={40} />,
+      title: "Business Loan",
     },
     {
-      title: "Business Loans",
-      description: "Fuel your business growth and expansion.",
-    },
-    {
-      title: "Balance Transfer",
-      description: "Reduce EMI and interest burden.",
-    },
-    {
+      icon: <FaHardHat size={40} />,
       title: "Construction Finance",
-      description: "Funding support for construction projects.",
+    },
+    {
+      icon: <FaUniversity size={40} />,
+      title: "Builder Funding",
+    },
+    {
+      icon: <FaMoneyCheckAlt size={40} />,
+      title: "Mortgage Loan",
     },
   ];
 
   return (
-    <section id="services" className="py-20">
+    <section
+      id="services"
+      className="py-24 bg-gradient-to-br from-blue-50 via-white to-yellow-50"
+    >
       <div className="max-w-7xl mx-auto px-6">
-
-        <h2 className="text-4xl font-bold text-center text-blue-900">
-          Our Services
+        <h2 className="text-4xl font-bold text-center text-blue-900 mb-4">
+          Our Loan Services
         </h2>
 
-        <p className="text-center text-gray-600 mt-4">
-          Comprehensive financial solutions tailored to your needs.
+        <p className="text-center text-gray-600 mb-14 max-w-3xl mx-auto">
+          We provide a wide range of financial solutions with competitive
+          interest rates, quick approvals, and complete documentation support.
         </p>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+        <div className="grid md:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition"
+              className="bg-white rounded-2xl shadow-md hover:shadow-xl border border-gray-100 p-8 transition-all duration-300 hover:-translate-y-2 cursor-pointer"
             >
-              <h3 className="text-xl font-bold text-blue-900">
+              <div className="w-20 h-20 rounded-full bg-blue-50 flex items-center justify-center text-blue-900 mx-auto mb-6">
+                {service.icon}
+              </div>
+
+              <h3 className="text-xl font-semibold text-center text-gray-800">
                 {service.title}
               </h3>
-
-              <p className="text-gray-600 mt-3">
-                {service.description}
-              </p>
             </div>
           ))}
         </div>
-
       </div>
     </section>
   );
