@@ -57,10 +57,9 @@ export default function Navbar() {
           </a>
 
           <a
-            href="#eligibility"
+            href="#vision"
             className="hover:text-yellow-500 transition duration-300"
-          >
-            Eligibility Check
+          > Our Vision
           </a>
 
           <a
@@ -110,7 +109,7 @@ export default function Navbar() {
               EMI Calculator
             </a>
 
-            <a href="#eligibility" onClick={closeMenu}>
+            <a href="#vision" onClick={closeMenu}>
               Our Vision
             </a>
 
