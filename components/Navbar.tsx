@@ -11,15 +11,15 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-white/95 backdrop-blur-md shadow-sm z-50">
-      <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6 py-2 flex items-center justify-between">
 
         {/* Logo */}
         <a href="#home" className="flex items-center">
           <Image
             src="/logo.jpeg"
             alt="MAGVEL Capital"
-            width={120}
-            height={40}
+            width={100}
+            height={35}
             priority
             className="object-contain"
           />
@@ -43,6 +43,13 @@ export default function Navbar() {
           </a>
 
           <a
+            href="#vision"
+            className="hover:text-yellow-500 transition duration-300"
+          >
+            Vision & Mission
+          </a>
+
+          <a
             href="#services"
             className="hover:text-yellow-500 transition duration-300"
           >
@@ -57,12 +64,6 @@ export default function Navbar() {
           </a>
 
           <a
-            href="#vision"
-            className="hover:text-yellow-500 transition duration-300"
-          > Our Vision
-          </a>
-
-          <a
             href="#contact"
             className="hover:text-yellow-500 transition duration-300"
           >
@@ -71,7 +72,7 @@ export default function Navbar() {
 
           <a
             href="#contact"
-            className="bg-yellow-500 hover:bg-yellow-600 text-white px-5 py-2.5 rounded-lg font-semibold shadow-md transition-all duration-300"
+            className="bg-yellow-500 hover:bg-yellow-600 text-white px-5 py-2 rounded-lg font-semibold shadow-md transition-all duration-300"
           >
             Apply Now
           </a>
@@ -101,16 +102,16 @@ export default function Navbar() {
               About
             </a>
 
+            <a href="#vision" onClick={closeMenu}>
+              Vision & Mission
+            </a>
+
             <a href="#services" onClick={closeMenu}>
               Services
             </a>
 
             <a href="#emi" onClick={closeMenu}>
               EMI Calculator
-            </a>
-
-            <a href="#vision" onClick={closeMenu}>
-              Our Vision
             </a>
 
             <a href="#contact" onClick={closeMenu}>
