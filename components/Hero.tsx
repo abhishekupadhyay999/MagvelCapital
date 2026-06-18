@@ -4,9 +4,9 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="pt-60 pb-24 bg-gradient-to-br from-blue-50 via-white to-yellow-50"
+      className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-yellow-50"
     >
-      <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+      <div className="max-w-7xl mx-auto px-6 pt-40 pb-24 grid lg:grid-cols-2 gap-12 items-center">
 
         {/* Left Side */}
         <div>
@@ -21,8 +21,7 @@ export default function Hero() {
             </span>
 
             <span className="block text-yellow-500">
-              from Top Banks &
-              NBFCs
+              from Top Banks & NBFCs
             </span>
           </h1>
 
@@ -114,6 +113,7 @@ export default function Hero() {
               </div>
 
             </div>
+
           </div>
         </div>
 
