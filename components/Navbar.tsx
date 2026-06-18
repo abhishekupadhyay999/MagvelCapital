@@ -111,7 +111,7 @@ export default function Navbar() {
             </a>
 
             <a href="#eligibility" onClick={closeMenu}>
-              Eligibility Check
+              Our Vision
             </a>
 
             <a href="#contact" onClick={closeMenu}>

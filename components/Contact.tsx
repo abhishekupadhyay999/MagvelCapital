@@ -99,10 +99,10 @@ export default function Contact() {
                 <option>Select Loan Requirement</option>
                 <option>Home Loan</option>
                 <option>Loan Against Property</option>
-                <option>Mortgage Loan</option>
+                <option>Education Loan</option>
                 <option>Business Loan</option>
                 <option>Construction Finance</option>
-                <option>Builder Funding</option>
+                <option>Car Loan</option>
               </select>
 
               <button

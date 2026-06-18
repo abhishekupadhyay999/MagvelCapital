@@ -17,7 +17,7 @@ export default function Hero() {
           <h1 className="mt-4 text-5xl md:text-6xl font-extrabold text-blue-900 leading-tight">
             Get the Best
             <span className="block">
-              Home Loan Deals
+            Loan Deals
             </span>
 
             <span className="block text-yellow-500">

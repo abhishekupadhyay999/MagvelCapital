@@ -31,7 +31,7 @@ export default function Services() {
     },
     {
       icon: <FaMoneyCheckAlt size={40} />,
-      title: "Mortgage Loan",
+      title: "PERSONAL LOAN",
     },
   ];
 

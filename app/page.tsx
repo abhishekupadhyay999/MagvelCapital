@@ -11,9 +11,9 @@ import Footer from "../components/Footer";
 import WhatsappButton from "@/components/WhatsappButton";
 import EMICalculator from "../components/EMIcalculator";
 import FAQ from "@/components/FAQ";
-import EligibilityChecker from "@/components/EligibilityChecker";
 import TrustStrip from "@/components/TrustStrip";
 import Leadership from "@/components/Leadership";
+import VisionMission from "@/components/VisionMission";
 
 export default function Home() {
   return (
@@ -23,9 +23,9 @@ export default function Home() {
       <TrustStrip/>
       <About />
       <Leadership/>
+      <VisionMission/>
       <Services />
       <EMICalculator/>
-      <EligibilityChecker/>
       <WhyChooseUs />
       <Process />
       <Partners />
