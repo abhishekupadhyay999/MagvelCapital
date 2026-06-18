@@ -13,6 +13,7 @@ import EMICalculator from "../components/EMIcalculator";
 import FAQ from "@/components/FAQ";
 import EligibilityChecker from "@/components/EligibilityChecker";
 import TrustStrip from "@/components/TrustStrip";
+import Leadership from "@/components/Leadership";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Hero />
       <TrustStrip/>
       <About />
+      <Leadership/>
       <Services />
       <EMICalculator/>
       <EligibilityChecker/>
