@@ -8,10 +8,56 @@ export default function About() {
         </h2>
 
         <p className="mt-6 text-center text-gray-600 max-w-4xl mx-auto">
-          MAGVEL CAPITAL SERVICES PVT LTD is a professional financial
-          consultancy and Direct Selling Associate (DSA) organization
-          dedicated to helping customers obtain the best loan products
-          available in the market.
+          WHO WE ARE
+
+MAGVEL CAPITAL SERVICES PRIVATE LIMITED began its journey in 2018 under the name Corporate Capital Finserv with a vision to provide reliable, transparent, and customer-focused financial solutions.
+
+Over the years, we have successfully served individuals, businesses, builders, and channel partners by offering expert financial consulting and customized loan solutions.
+
+OUR JOURNEY
+
+• Established in 2018 as Corporate Capital Finserv
+
+• Successfully served thousands of customers across multiple financial segments
+
+• Built strong relationships with leading banks and financial institutions
+
+• Incorporated as MAGVEL CAPITAL SERVICES PRIVATE LIMITED on 17th June 2026
+
+OUR COMMITMENT
+
+Today, MAGVEL Capital Services Private Limited provides end-to-end financial consulting and loan advisory services, helping customers secure the right financial solutions with complete transparency and expert guidance.
+
+We specialize in:
+
+✓ Home Loans
+
+✓ Loan Against Property
+
+✓ Mortgage Loans
+
+✓ Business Loans
+
+✓ Construction Finance
+
+✓ Builder Project Funding
+
+WHY CHOOSE MAGVEL?
+
+✓ Customer-First Approach
+
+✓ Transparent Process
+
+✓ 150+ Banking Partners
+
+✓ 50,000+ Happy Customers
+
+✓ End-to-End Documentation Support
+
+✓ Quick Approval Assistance
+
+✓ Dedicated Financial Advisors
+
         </p>
 
         <div className="grid md:grid-cols-3 gap-6 mt-12">

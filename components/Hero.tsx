@@ -6,7 +6,7 @@ export default function Hero() {
       id="home"
       className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-yellow-50"
     >
-      <div className="max-w-7xl mx-auto px-6 pt-40 pb-24 grid lg:grid-cols-2 gap-12 items-center">
+      <div className="max-w-7xl mx-auto px-6 pt-32 pb-24 grid lg:grid-cols-2 gap-12 items-center">
 
         {/* Left Side */}
         <div>

@@ -16,10 +16,10 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#home" className="flex items-center">
           <Image
-            src="/logo.jpeg"
+            src="/logo1.jpeg"
             alt="MAGVEL Capital"
-            width={100}
-            height={35}
+            width={45}
+            height={45}
             priority
             className="object-contain"
           />
