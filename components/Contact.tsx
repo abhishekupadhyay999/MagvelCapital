@@ -56,7 +56,7 @@ export default function Contact() {
             </p>
 
             <p>
-              🌐 www.magvelcapital.com
+              🌐 www.magvelcapital.in
             </p>
           </div>
 

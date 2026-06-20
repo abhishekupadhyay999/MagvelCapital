@@ -85,12 +85,12 @@ export default function Footer() {
                   href="mailto:info@magvelcapital.com"
                   className="hover:text-yellow-400"
                 >
-                  info@magvelcapital.com
+                  info@magvelcapital.in
                 </a>
               </p>
 
               <p>
-                🌐 www.magvelcapital.com
+                🌐 www.magvelcapital.in
               </p>
             </div>
           </div>
